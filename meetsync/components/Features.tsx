@@ -1,40 +1,40 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { CalendarDaysIcon, MapPinIcon, BuildingStorefrontIcon, BellAlertIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Date Voting',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
-    icon: CloudArrowUpIcon,
+      'Simplify scheduling by allowing friends to vote on their preferred dates for the gathering.',
+    icon: CalendarDaysIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Location Selection',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: LockClosedIcon,
+      'Choose and vote on potential venues to find the perfect spot that suits everyones preference.',
+    icon: MapPinIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Restaurant and Food Options',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-    icon: ArrowPathIcon,
+      'Collaboratively decide on the dining experience, from selecting the restaurant to voting on specific food options.',
+    icon: BuildingStorefrontIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'Real-Time Updates',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-    icon: FingerPrintIcon,
+      'Stay informed with real-time notifications about votes, changes, and final decisions.',
+    icon: BellAlertIcon,
   },
 ]
 
 const Features = () => {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-gray-100 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-primary">Deploy faster</h2>
+          <h2 className="text-base font-semibold leading-7 text-primary">Meet faster</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to deploy your app
+            Everything you need to meet your friends
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum

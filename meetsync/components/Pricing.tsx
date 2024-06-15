@@ -17,32 +17,28 @@ export default function Pricing() {
             </p>
           </div>
         </div>
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           <div className="flex flex-col items-start gap-4 rounded-lg border border-gray-200 p-6 dark:border-gray-800">
             <div className="grid gap-2">
               <h3 className="text-2xl font-bold">Starter</h3>
-              <p className="text-gray-500 dark:text-gray-400">Perfect for individuals and small teams.</p>
+              <p className="text-gray-500 dark:text-gray-400">Perfect for a few get-togethers.</p>
             </div>
             <div className="flex items-end gap-2">
-              <span className="text-4xl font-bold">$9</span>
+              <span className="text-4xl font-bold">€0</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
             <ul className="grid gap-2 text-gray-500 dark:text-gray-400">
               <li className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4 fill-primary" />
-                Up to 5 users
+                Up to 5 users per vote
               </li>
               <li className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4 fill-primary" />
-                5GB storage
+                1 Vote per Month
               </li>
               <li className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4 fill-primary" />
-                Basic analytics
-              </li>
-              <li className="flex items-center gap-2">
-                <CheckIcon className="h-4 w-4 fill-primary" />
-                Email support
+                Default vote options
               </li>
             </ul>
             <Button className="w-full">Get Started</Button>
@@ -50,57 +46,28 @@ export default function Pricing() {
           <div className="flex flex-col items-start gap-4 rounded-lg border border-gray-200 p-6 dark:border-gray-800">
             <div className="grid gap-2">
               <h3 className="text-2xl font-bold">Pro</h3>
-              <p className="text-gray-500 dark:text-gray-400">For growing teams and small businesses.</p>
+              <p className="text-gray-500 dark:text-gray-400">For a lot of get-togethers.</p>
             </div>
             <div className="flex items-end gap-2">
-              <span className="text-4xl font-bold">$29</span>
+              <span className="text-4xl font-bold">€9</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
             <ul className="grid gap-2 text-gray-500 dark:text-gray-400">
               <li className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4 fill-primary" />
-                Up to 25 users
+                Unlimitet users
               </li>
               <li className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4 fill-primary" />
-                50GB storage
+                Unlimited Votes
               </li>
               <li className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4 fill-primary" />
-                Advanced analytics
+                Custom Vote Options
               </li>
               <li className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4 fill-primary" />
-                24/7 email and chat support
-              </li>
-            </ul>
-            <Button className="w-full">Get Started</Button>
-          </div>
-          <div className="flex flex-col items-start gap-4 rounded-lg border border-gray-200 p-6 dark:border-gray-800">
-            <div className="grid gap-2">
-              <h3 className="text-2xl font-bold">Enterprise</h3>
-              <p className="text-gray-500 dark:text-gray-400">For large teams and organizations.</p>
-            </div>
-            <div className="flex items-end gap-2">
-              <span className="text-4xl font-bold">$99</span>
-              <span className="text-gray-500 dark:text-gray-400">/month</span>
-            </div>
-            <ul className="grid gap-2 text-gray-500 dark:text-gray-400">
-              <li className="flex items-center gap-2">
-                <CheckIcon className="h-4 w-4 fill-primary" />
-                Unlimited users
-              </li>
-              <li className="flex items-center gap-2">
-                <CheckIcon className="h-4 w-4 fill-primary" />
-                Unlimited storage
-              </li>
-              <li className="flex items-center gap-2">
-                <CheckIcon className="h-4 w-4 fill-primary" />
-                Enterprise-grade analytics
-              </li>
-              <li className="flex items-center gap-2">
-                <CheckIcon className="h-4 w-4 fill-primary" />
-                Dedicated account manager
+                E-Mail Support
               </li>
             </ul>
             <Button className="w-full">Get Started</Button>

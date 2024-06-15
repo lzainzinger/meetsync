@@ -18,7 +18,7 @@ const Hero = () => {
                 <p className="mt-6 text-lg leading-8 text-gray-600"><span className="text-primary">MeetSync</span> transforms the way friends plan and organize gatherings, making the process seamless, inclusive, and fun. With our app, spending quality time with friends has never been easier. Join today and start planning your next unforgettable get-together!</p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <Link href="/login"><Button>Get Started</Button></Link>
-                  <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+                  <a href="#product" className="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
                 </div>
               </div>
             </div>
