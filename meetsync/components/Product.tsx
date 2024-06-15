@@ -28,7 +28,7 @@ const Product = () => {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-              In today's fast-paced world, coordinating social gatherings with friends can be a daunting task. 
+              In todays fast-paced world, coordinating social gatherings with friends can be a daunting task. 
               Endless message threads, conflicting schedules, and differing preferences often turn what should be a fun and exciting process into a stressful and time-consuming ordeal.
 
               </p>
