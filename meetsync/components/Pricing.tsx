@@ -5,6 +5,10 @@
  */
 import { Button } from "@/components/ui/button"
 
+type Props = {
+  className?: string
+}
+
 export default function Pricing() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
@@ -78,7 +82,7 @@ export default function Pricing() {
   )
 }
 
-function CheckIcon(props) {
+function CheckIcon(props: Props) {
   return (
     <svg
       {...props}
