@@ -19,10 +19,35 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import { defaultConfig } from "next/dist/server/config-shared"
+import Hero from "@/components/Hero"
+import Product from "@/components/Product"
+import Features from "@/components/Features"
+import Pricing from "@/components/Pricing"
+import Newsletter from "@/components/Newsletter"
 
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <>
+      <Hero />
+
+      <section id="product">
+        <Product />
+      </section>
+
+      <section id="features">
+        <Features />
+      </section>
+
+      <section id="pricing">
+        <Pricing />
+      </section>
+
+      <section id="newsletter">
+        <Newsletter />
+      </section>
+      
+    </>
+      
   )
 }
 
