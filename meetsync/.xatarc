@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Lukas-Zainzinger-s-workspace-tq0tbj.eu-central-1.xata.sh/db/meetsync",
+  "codegen": {
+    "output": "app/xata.ts"
+  }
+}
