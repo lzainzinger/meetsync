@@ -8,7 +8,6 @@ export async function EmailSignIn(
     formData: FormData,
   ) {
     try {
-        console.log(formData)
       await signIn('nodemailer', formData);
     } catch (error) {
       if (error instanceof AuthError) {
