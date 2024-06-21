@@ -11,6 +11,7 @@ import { Card, CardContent, CardHeader, CardFooter } from "@/components/ui/card"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { auth } from "../auth"
 import { redirect } from 'next/navigation'
+import CalendarComponent from "@/components/CalendarComponent"
 
 export default async function Dashboard() {
   const session = await auth()
@@ -245,6 +246,7 @@ export default async function Dashboard() {
               </CardFooter>
             </Card>
           </div>
+          <CalendarComponent />
         </div>
       </div>
     </div>
