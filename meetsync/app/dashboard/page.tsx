@@ -14,7 +14,7 @@ import { redirect } from 'next/navigation'
 
 export default async function Dashboard() {
   const session = await auth()
-  if (!session) redirect("/")
+  if (!session) redirect("/login")
   return (
     <div className="flex min-h-screen">
       <div className="bg-background border-r px-4 py-6 flex flex-col gap-4">

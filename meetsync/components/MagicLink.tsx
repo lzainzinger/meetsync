@@ -12,6 +12,7 @@ export function MagicLink() {
               <div>
                 <Label htmlFor="email">Email</Label>
                 <Input id="email" name="email" type="email" placeholder="name@example.com" required />
+                <Input id="email" name="redirectTo" type="hidden" value="/dashboard" required />
               </div>
               <Button type="submit" className="w-full">
                 Sign in
