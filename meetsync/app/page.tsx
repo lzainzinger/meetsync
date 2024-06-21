@@ -24,10 +24,12 @@ import Product from "@/components/Product"
 import Features from "@/components/Features"
 import Pricing from "@/components/Pricing"
 import Newsletter from "@/components/Newsletter"
+import Header from "@/components/Header"
 
 const Home = () => {
   return (
     <>
+      <Header />
       <Hero />
 
       <section id="product">
