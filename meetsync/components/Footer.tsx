@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer w-full footer-center p-10 text-secondary bg-primary text-center">
       <nav className="grid grid-flow-col gap-4 justify-center py-4">
         <a className="link link-hover">About us</a>
-        <a className="link link-hover" href="mailto:contact@meetsync.me">Contact</a>
+        <a className="link link-hover" href="mailto:hello@meetsync.me">Contact</a>
         <a className="link link-hover">Register</a>
         <a className="link link-hover">Login</a>
       </nav> 
