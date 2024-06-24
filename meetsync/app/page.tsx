@@ -25,6 +25,7 @@ import Features from "@/components/Features"
 import Pricing from "@/components/Pricing"
 import Newsletter from "@/components/Newsletter"
 import Header from "@/components/Header"
+import TallyForm from "@/components/TallyForm"
 
 const Home = () => {
   return (
@@ -42,6 +43,10 @@ const Home = () => {
 
       <section id="pricing">
         <Pricing />
+      </section>
+
+      <section id="feedback">
+        <TallyForm />
       </section>
 
       <section id="newsletter">
