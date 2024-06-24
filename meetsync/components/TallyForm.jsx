@@ -2,7 +2,7 @@
 import Script from 'next/script'
 
 const TallyForm = () => {
-    const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
     return(
         <>
@@ -23,7 +23,6 @@ const TallyForm = () => {
                         doNotShowAfterSubmit: true,
 
                       });
-                      
                 }
             } />
         </>
